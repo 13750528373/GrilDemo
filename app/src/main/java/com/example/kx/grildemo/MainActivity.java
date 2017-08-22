@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
             Glide.with(MainActivity.this).load(bean.getUrl()).into(holder.lv);
 
+
             return converView;
         }
     };
